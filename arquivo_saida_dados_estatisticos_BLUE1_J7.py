@@ -79,7 +79,7 @@ def arquivo_saida_dados_estatisticos_erro_estimacao_parametro_BLUE1_janelamento_
     titulo_arquivo_saida = "Oc,media_erro,var_erro,desvio_padrao_erro\n"
 
     # Definição da pasta em que contém o arquivo de saída.
-    pasta_saida = f"Dados_Estatisticos_BLUE1_{parametro}_Janelamento_7_OC"
+    pasta_saida = f"Dados_Estatisticos_BLUE1_{parametro.capitalize()}_Janelamento_7_OC"
 
     # Caso a pasta não exista.
     if not os.path.exists(pasta_saida):
